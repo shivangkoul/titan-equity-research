@@ -11,9 +11,9 @@ This project runs across four phases:
 | Phase | Description | Status |
 |-------|-------------|--------|
 | 1 | Financial Statement Fundamentals | ✅ Complete |
-| 2 | 3-Statement Excel Model (historical + projections) | 🔄 In Progress |
-| 3 | DCF Valuation, Monte Carlo Simulation & Scenario Analysis | ⏳ Upcoming |
-| 4 | Differentiator Layer + Investment Memo | ⏳ Upcoming |
+| 2 | 3-Statement Excel Model (historical + projections) | ✅ Complete |
+| 3 | DCF Valuation, Monte Carlo Simulation & Scenario Analysis | ✅ Complete |
+| 4 | Differentiator Layer + Investment Memo | ✅ Complete |
 
 ---
 
@@ -57,9 +57,26 @@ This project runs across four phases:
 
 ## Key Findings *(updated as project progresses)*
 
-- FY24 standalone revenue ex-bullion: ~₹47,501 Cr
-- FY24 PAT: ₹3,496 Cr
-- *Valuation range and investment thesis to be added upon Phase 3 completion*
+## Key Findings
+
+| Metric | Value |
+|---|---|
+| FY24 Revenue (Consolidated) | ₹51,617 Cr |
+| FY24 EBITDA Margin | 11.3% (compressed from 12.7% in FY23) |
+| FY24 Free Cash Flow | ₹1,004 Cr |
+| Base-case DCF implied price | ₹558 / share |
+| Monte Carlo median (P50) | ₹824 / share |
+| Monte Carlo 90% CI | ₹409 – ₹1,447 |
+| CMP at time of analysis | ₹4,450 |
+| Rating | HOLD — accumulate below ₹3,800 |
+| Primary value driver | Revenue CAGR (Pearson r = +0.72) |
+| Primary risk factor | WACC sensitivity (r = −0.43) |
+
+**Interpretation:** The gap between ₹824 (DCF median) and ₹4,450 (CMP) reflects
+franchise optionality — Tanishq's long-run market share journey in a ₹6L Cr
+jewellery market with only 7% organised penetration, which a 5-year DCF
+cannot adequately price. Reverse DCF implies the market expects ~22% FCF
+CAGR over 10 years, consistent with Titan's historical trajectory.
 
 ---
 
