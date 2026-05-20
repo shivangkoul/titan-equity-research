@@ -65,12 +65,12 @@ This project runs across four phases:
 | FY24 EBITDA Margin | 11.3% (compressed from 12.7% in FY23) |
 | FY24 Free Cash Flow | ₹1,004 Cr |
 | Base-case DCF implied price | ₹558 / share |
-| Monte Carlo median (P50) | ₹824 / share |
-| Monte Carlo 90% CI | ₹409 – ₹1,447 |
+| Monte Carlo median (P50) | ₹1,206 / share |
+| Monte Carlo 90% CI | ₹766 – ₹1,992 |
 | CMP at time of analysis | ₹4,450 |
 | Rating | HOLD — accumulate below ₹3,800 |
 | Primary value driver | Revenue CAGR (Pearson r = +0.72) |
-| Primary risk factor | WACC sensitivity (r = −0.43) |
+| Primary risk factor | WACC sensitivity (r = −0.55) |
 
 **Interpretation:** The gap between ₹824 (DCF median) and ₹4,450 (CMP) reflects
 franchise optionality — Tanishq's long-run market share journey in a ₹6L Cr
