@@ -55,8 +55,6 @@ This project runs across four phases:
 
 ---
 
-## Key Findings *(updated as project progresses)*
-
 ## Key Findings
 
 | Metric | Value |
