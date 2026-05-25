@@ -44,6 +44,15 @@ This project runs across four phases:
 
 ---
 
+## Repository Structure
+
+| Folder | Contents |
+|---|---|
+| `excel/` | 3-statement financial model with historical data and projections |
+| `python/` | Monte Carlo DCF simulation script and JSON summary output |
+| `outputs/` | Simulation chart (distribution + tornado) |
+| `memo/` | Sell-side format investment memo |
+
 ## Data Sources
 
 | Source | Usage |
