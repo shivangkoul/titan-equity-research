@@ -42,11 +42,16 @@ Tested whether "Tanishq" search traffic leads jewellery revenue. Raw levels look
 
 ## Repository Structure
 
-    excel/      3-statement model + DCF, incl. interactive Dashboard tab
-    python/     Monte Carlo, Groq LLM sentiment scoring, Google Trends analysis
-    outputs/    simulation outputs, charts, and summary data
-    memo/       investment memo + investor one-pager (PDF)
-    README.md
+| Folder | Contents |
+|---|---|
+| `01_model/` | 3-statement model + DCF (Excel), incl. interactive Dashboard tab |
+| `02_montecarlo/` | 10,000-trial Monte Carlo simulation + summary JSON + charts |
+| `03_llm_sentiment/` | 6 real earnings-call transcripts + Groq sentiment scoring → bounded overlay |
+| `05_google_trends/` | search-vs-revenue lead-lag analysis (levels vs detrended) |
+| `06_dashboard/` | interactive React dashboard (`npm install && npm run dev`) |
+| `07_onepager/` | investor one-pager (PDF) + figures |
+
+*Folder numbering intentionally skips 04 — it matches the project's phase numbering.*
 
 ---
 
@@ -60,7 +65,7 @@ Python (NumPy, SciPy, Matplotlib) · Monte Carlo Simulation · Groq LLM API · p
 
 Dashboard:
 
-    cd excel
+    cd 06_dashboard
     npm install
     npm run dev
 
