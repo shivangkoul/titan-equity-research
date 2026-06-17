@@ -60,17 +60,13 @@ Python (NumPy, SciPy, Matplotlib) · Monte Carlo Simulation · Groq LLM API · p
 
 Dashboard:
 
-​```
-cd excel
-npm install
-npm run dev
-​```
+    cd excel
+    npm install
+    npm run dev
 
 Simulations & analysis (Python 3.12):
 
-​```
-pip install numpy scipy matplotlib pandas pytrends groq openpyxl
-​```
+    pip install numpy scipy matplotlib pandas pytrends groq openpyxl
 
 ---
 
