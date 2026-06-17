@@ -42,17 +42,11 @@ Tested whether "Tanishq" search traffic leads jewellery revenue. Raw levels look
 
 ## Repository Structure
 
-​```
-'excel/      3-statement model + DCF, incl. interactive Dashboard tab'
-
-'python/     10,000-trial Monte Carlo, Groq LLM sentiment scoring, Google Trends analysis'
-
-'outputs/    simulation outputs, charts, and summary data'
-
-'memo/       investment memo + investor one-pager (PDF)'
-
-README.md
-​```
+    excel/      3-statement model + DCF, incl. interactive Dashboard tab
+    python/     Monte Carlo, Groq LLM sentiment scoring, Google Trends analysis
+    outputs/    simulation outputs, charts, and summary data
+    memo/       investment memo + investor one-pager (PDF)
+    README.md
 
 ---
 
