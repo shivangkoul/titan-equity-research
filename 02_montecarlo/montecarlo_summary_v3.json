@@ -1,0 +1,23 @@
+{
+  "version": "v3_reanchored_FY25",
+  "n_valid": 10000,
+  "cmp": 4363.0,
+  "median": 1005,
+  "mean": 1034,
+  "p10": 718,
+  "p25": 849,
+  "p75": 1185,
+  "p90": 1387,
+  "p_fv_below_cmp": 1.0,
+  "central_case_check": "Rs 1,013 vs deterministic Rs 1,017",
+  "correlations": {
+    "EBITDA margin": 0.607,
+    "WACC": -0.557,
+    "Terminal growth": 0.339,
+    "Revenue growth": 0.277,
+    "Capex %": -0.215,
+    "Inventory days": -0.113,
+    "Tax rate": -0.08,
+    "D&A %": 0.029
+  }
+}

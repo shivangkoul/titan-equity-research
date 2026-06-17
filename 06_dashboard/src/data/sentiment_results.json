@@ -1,0 +1,76 @@
+{
+  "model": "llama-3.3-70b-versatile",
+  "is_mock": false,
+  "transcripts": [
+    {
+      "quarter": "FY25Q3",
+      "mci": 0.2,
+      "scores": {
+        "demand_outlook": 1,
+        "margin_guidance": 0,
+        "growth_ambition": 1,
+        "execution": 1,
+        "hedging_language": -1
+      }
+    },
+    {
+      "quarter": "FY25Q4",
+      "mci": 0.0,
+      "scores": {
+        "demand_outlook": 0,
+        "margin_guidance": -1,
+        "growth_ambition": 1,
+        "execution": 1,
+        "hedging_language": -1
+      }
+    },
+    {
+      "quarter": "FY26Q1",
+      "mci": 0.0,
+      "scores": {
+        "demand_outlook": 0,
+        "margin_guidance": -1,
+        "growth_ambition": 1,
+        "execution": 1,
+        "hedging_language": -1
+      }
+    },
+    {
+      "quarter": "FY26Q2",
+      "mci": 0.1,
+      "scores": {
+        "demand_outlook": 1,
+        "margin_guidance": -1,
+        "growth_ambition": 1,
+        "execution": 1,
+        "hedging_language": -1
+      }
+    },
+    {
+      "quarter": "FY26Q3",
+      "mci": 0.2,
+      "scores": {
+        "demand_outlook": 1,
+        "margin_guidance": 0,
+        "growth_ambition": 1,
+        "execution": 1,
+        "hedging_language": -1
+      }
+    },
+    {
+      "quarter": "FY26Q4",
+      "mci": 0.1,
+      "scores": {
+        "demand_outlook": 1,
+        "margin_guidance": -1,
+        "growth_ambition": 1,
+        "execution": 1,
+        "hedging_language": -1
+      }
+    }
+  ],
+  "latest_mci": 0.1,
+  "growth_overlay_pp": 0.15,
+  "fv_base": 1013,
+  "fv_sentiment_adj": 1018
+}

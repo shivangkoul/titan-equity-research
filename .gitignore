@@ -1,6 +1,16 @@
+node_modules/
+dist/
 __pycache__/
 *.pyc
-*.pyo
 .DS_Store
-Thumbs.db
-*.log
+*.zip
+*.local
+.vscode/
+
+# Internal notes — do not publish
+CV_LinkedIn_GitHub_brief.md
+PROJECT_CONTEXT.md
+START_HERE.md
+
+# Office temp lock files
+~$*

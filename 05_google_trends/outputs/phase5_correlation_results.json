@@ -1,0 +1,77 @@
+{
+  "keyword": "Tanishq",
+  "is_synthetic": false,
+  "generated_at": "2026-06-10T22:55:45.425456",
+  "n_quarters": 20,
+  "levels": {
+    "-1": {
+      "r": 0.4383,
+      "p": 0.0605,
+      "n": 19,
+      "interpretation": "Revenue leads Trends by 1Q",
+      "sig": "*"
+    },
+    "0": {
+      "r": 0.7003,
+      "p": 0.0006,
+      "n": 20,
+      "interpretation": "Contemporaneous",
+      "sig": "***"
+    },
+    "1": {
+      "r": 0.5975,
+      "p": 0.0069,
+      "n": 19,
+      "interpretation": "Trends leads Revenue by 1Q",
+      "sig": "***"
+    },
+    "2": {
+      "r": 0.4622,
+      "p": 0.0535,
+      "n": 18,
+      "interpretation": "Trends leads Revenue by 2Q",
+      "sig": "*"
+    },
+    "3": {
+      "r": 0.5944,
+      "p": 0.0119,
+      "n": 17,
+      "interpretation": "Trends leads Revenue by 3Q",
+      "sig": "**"
+    },
+    "best_lead_lag": 0
+  },
+  "detrended_qoq": {
+    "-1": {
+      "r": 0.0782,
+      "p": 0.7578,
+      "n": 18,
+      "interpretation": "Revenue leads Trends by 1Q",
+      "sig": "ns"
+    },
+    "0": {
+      "r": 0.478,
+      "p": 0.0385,
+      "n": 19,
+      "interpretation": "Contemporaneous",
+      "sig": "**"
+    },
+    "1": {
+      "r": -0.1005,
+      "p": 0.6915,
+      "n": 18,
+      "interpretation": "Trends leads Revenue by 1Q",
+      "sig": "ns"
+    },
+    "2": {
+      "r": -0.3559,
+      "p": 0.1609,
+      "n": 17,
+      "interpretation": "Trends leads Revenue by 2Q",
+      "sig": "ns"
+    },
+    "3": {
+      "r": 0.1607,
+      "p": 0.5522,
+      "n": 16,
+      "interpretation": "
