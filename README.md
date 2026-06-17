@@ -41,3 +41,48 @@ Tested whether "Tanishq" search traffic leads jewellery revenue. Raw levels look
 ---
 
 ## Repository Structure
+
+​```
+excel/      3-statement model + DCF, incl. interactive Dashboard tab
+python/     10,000-trial Monte Carlo, Groq LLM sentiment scoring, Google Trends analysis
+outputs/    simulation outputs, charts, and summary data
+memo/       investment memo + investor one-pager (PDF)
+README.md
+​```
+
+---
+
+## Tech Stack
+
+Python (NumPy, SciPy, Matplotlib) · Monte Carlo Simulation · Groq LLM API · pytrends · React + Vite + Recharts · Advanced Excel (openpyxl) · Git/GitHub
+
+---
+
+## Running It
+
+Dashboard:
+
+​```
+cd excel
+npm install
+npm run dev
+​```
+
+Simulations & analysis (Python 3.12):
+
+​```
+pip install numpy scipy matplotlib pandas pytrends groq openpyxl
+​```
+
+---
+
+## A Note on Method
+
+Two decisions in this project matter more than any single output:
+
+- The LLM sentiment overlay was **bounded on purpose** — to demonstrate that a model output shouldn't count just because it exists. Knowing when to distrust your own pipeline is the point.
+- The Google Trends signal was tested and **reported as null**. Forcing a positive finding would have been easy and dishonest. It isn't here.
+
+---
+
+*Author: Shivang Koul · Built for finance / strategy-consulting applications · Educational use only, not investment advice.*
