@@ -1,102 +1,43 @@
-# Titan Company Ltd. — Independent Equity Research & DCF Valuation
+# Titan Company Ltd (NSE: TITAN) — AI Decision Intelligence Case Study
 
-> A ground-up equity research project on **NSE: TITAN**, built to replicate the workflow of a buy-side analyst — from raw financial statements to a final investment memo.
+A self-directed equity research project that treats valuation as a **decision under uncertainty** — taking one recommendation and pressure-testing it from four independent analytical angles rather than trusting a single model.
 
----
-
-## Project Structure
-
-This project runs across four phases:
-
-| Phase | Description | Status |
-|-------|-------------|--------|
-| 1 | Financial Statement Fundamentals | ✅ Complete |
-| 2 | 3-Statement Excel Model (historical + projections) | ✅ Complete |
-| 3 | DCF Valuation, Monte Carlo Simulation & Scenario Analysis | ✅ Complete |
-| 4 | Differentiator Layer + Investment Memo | ✅ Complete |
+> **Educational project. Not investment advice.**
+> Working standard throughout: correctness over speed. No fabricated numbers — every figure is verified against source filings and cross-checked with an independent Python recompute.
 
 ---
 
-## What's Inside
+## Bottom Line
 
-### 📊 Excel Model
-- Consolidated Income Statement, Balance Sheet, and Cash Flow Statement
-- Historical data sourced from **BSE filings** and **Screener.in**
-- Careful handling of Titan's bullion revenue reclassification (material impact on reported top-line)
-- Assumptions tab with documented drivers for revenue growth, margins, capex, and working capital
+**Recommendation: HOLD.** A superb business priced for perfection.
 
-### 🐍 Python (Monte Carlo DCF)
-- Probabilistic valuation using Monte Carlo simulation
-- Key inputs modelled as distributions (WACC, terminal growth rate, revenue CAGR)
-- Output: intrinsic value range with confidence intervals
+| Metric | Value |
+|---|---|
+| DCF fair value | **₹1,017 / share** |
+| Market price (CMP) | ~₹4,363 |
+| Implied downside | ~77% |
+| WACC | 12.2% (Rf 7.0%, ERP 6.5%, β 0.85) |
+| Monte Carlo median | ₹1,005 (80% CI: ₹718–₹1,387) |
+| P(fair value < CMP) | 100% |
 
-### 🤖 LLM-Powered Sentiment Analysis
-- Earnings call transcripts scored for management tone using the **Groq API**
-- Tracks sentiment trends across quarters as a qualitative overlay to the model
+The conclusion was reached by analysis — never reverse-engineered to the market price. A reverse-DCF shows the current price implies **~11.3% perpetual FCFF growth**, against ~5.5% nominal GDP.
 
-### 📈 Google Trends Correlation
-- Consumer demand proxy using **pytrends**
-- Correlates search interest in Titan / Tanishq with revenue seasonality
+---
 
-### 📊 Interactive Dashboard
-- **Power BI** dashboard for financial KPIs and valuation outputs
-- Built for non-technical audiences; designed to accompany the investment memo
+## One Thesis, Four Independent Angles
+
+**1. DCF Valuation**
+A fully integrated 3-statement model (FY21–FY34, reanchored to FY25 audited actuals, balancing every year with real linkage — no plug). Two-stage 10-year DCF; jewellery modelled on a standalone ex-bullion basis that reconciles 0.00% to Titan's published filings; full Ind-AS 116 lease treatment.
+
+**2. Monte Carlo Simulation (10,000 trials)**
+Quantifies the uncertainty around the point estimate. Median fair value ₹1,005; 80% CI ₹718–₹1,387; P(fair value < CMP) = 100%. Sensitivity analysis isolates **EBITDA margin (r = +0.61)** and **WACC (r = −0.56)** as the dominant value drivers.
+
+**3. LLM Management Sentiment**
+Six real, SEBI-filed earnings-call transcripts (FY25Q3 → FY26Q4) scored via Groq/LLaMA into a Management Confidence Index. A deliberately **bounded** overlay moves fair value only ₹1,013 → ₹1,018 — proving by construction that sentiment cannot rescue the thesis.
+
+**4. Alternative Data (Google Trends)**
+Tested whether "Tanishq" search traffic leads jewellery revenue. Raw levels looked predictive (lag+1 r = 0.60), but after detrending (removing shared trend + Diwali seasonality) the signal is **coincident, not leading** (lag+1 r = −0.10, not significant). The null result is reported honestly.
 
 ---
 
 ## Repository Structure
-
-| Folder | Contents |
-|---|---|
-| `excel/` | 3-statement financial model with historical data and projections |
-| `python/` | Monte Carlo DCF simulation script and JSON summary output |
-| `outputs/` | Simulation chart (distribution + tornado) |
-| `memo/` | Sell-side format investment memo |
-
-## Data Sources
-
-| Source | Usage |
-|--------|-------|
-| BSE Filings / Titan Press Releases | Primary financial data |
-| Screener.in | Consolidated historical view |
-| Groq API | LLM inference for sentiment scoring |
-| pytrends | Google Trends data |
-
----
-
-## Key Findings
-
-| Metric | Value |
-|---|---|
-| FY24 Revenue (Consolidated) | ₹51,617 Cr |
-| FY24 EBITDA Margin | 11.3% (compressed from 12.7% in FY23) |
-| FY24 Free Cash Flow | ₹1,004 Cr |
-| Base-case DCF implied price | ₹558 / share |
-| Monte Carlo median (P50) | ₹1,206 / share |
-| Monte Carlo 90% CI | ₹766 – ₹1,992 |
-| CMP at time of analysis | ₹4,450 |
-| Rating | HOLD — accumulate below ₹3,800 |
-| Primary value driver | Revenue CAGR (Pearson r = +0.72) |
-| Primary risk factor | WACC sensitivity (r = −0.55) |
-
-**Interpretation:** The gap between ₹824 (DCF median) and ₹4,450 (CMP) reflects
-franchise optionality — Tanishq's long-run market share journey in a ₹6L Cr
-jewellery market with only 7% organised penetration, which a 5-year DCF
-cannot adequately price. Reverse DCF implies the market expects ~22% FCF
-CAGR over 10 years, consistent with Titan's historical trajectory.
-
----
-
-## Tech Stack
-
-`Python` · `Excel` · `Power BI` · `Groq LLM API` · `pytrends` · `React/Vercel`
-
----
-
-## About
-
-Built by **Shivang Koul**, B.Com (Hons), Hansraj College, University of Delhi.
-
-This project is an independent initiative — not affiliated with any institution or employer. All data is sourced from public filings. This is not investment advice.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/shivangkoul)
